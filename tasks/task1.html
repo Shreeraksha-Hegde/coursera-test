@@ -223,6 +223,9 @@ img {vertical-align: middle;}
 body{
      background-color: F9D0C7;
 }
+div{
+    
+ }
 
 p {
   width: 80%;
@@ -239,6 +242,8 @@ p {
   overflow: auto;
   margin-top: 0px;
  padding: 5px;
+  position: relative;
+  
 }
 
 #p1 {
@@ -271,7 +276,7 @@ p {
 		font-size: 125%;
 		font-weight: bold;
 		background-color: blue;
-                margin-left: 0px;
+                margin-left: 50px;
                 margin-bottom: 5px;
                 border-radius: 25px;
   
@@ -332,6 +337,26 @@ p {
                 margin-bottom: 5px;
                 margin-right: 30px;
                 border-radius: 25px;
+                
+  
+ }
+#conn {
+                float: right;
+		color: white;
+		width: 80%;
+                height: 400px;
+		
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+                padding: 18px 35px;
+		background-color: pink;
+                margin-left: 150px;
+                margin-bottom: 10px;
+                margin-right: 30px;
+                border-radius: 25px;
+                box-align: center;
   
  }
 #co {
@@ -339,13 +364,18 @@ p {
                 height: 420px;
                 padding: 10px;
                 border: 5px solid gray;
+                display: block;
                 margin-left: 500px;
+                margin-right: auto;
                 border-radius: 25px;
                
                 font-size: 80%;
                 text-align: center;
                 text-decoration: none;
                 background-color: orange;
+                align-content: center;
+                box-align: center;
+                 
   
  }
 #c{
@@ -353,7 +383,7 @@ p {
                 height: 50px;
                 padding: 10px;
                 border: 5px solid gray;
-                margin-left: 610px;
+                
                 margin-top: 10px;
                 
                 
@@ -364,8 +394,29 @@ p {
                 text-decoration: underline;
                 background-color: black;
                 position: absolute;
+                 top: 132%;
+                 left: 40%;
   
  }
+.container {
+  ...
+  position: relative;
+}
+
+.child {
+  width: 500px;
+  height: 400px;
+  background-color: orange;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 134%;
+  left: 30%;
+  bottom: 134%;
+  margin-top: 10px;
+  border-radius: 25px;
+  margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+}
+
 
 
 .row {
@@ -581,24 +632,13 @@ function showSlides(n) {
 </svg>
 
 <article>
-<div class="row">
+
+<div class="container">
+  <div class="child"><br></br><br></br>1.Order regarding declaration of Ward no. 4-Thadi as containment Zone</br><br>2.Order regarding declaration of Village Sammi as containment Zone</br><br>3.Order regarding opening of Ward no. 9-Dharog</br><br>4.Order regarding declaration of Village Arla-1 as containment Zone</br><br>Order regarding declaration of Village Jatoon as containment Zone</br></div>
   
-  <div class="col-lg-3 col-md-11"><div id="box">
-  <div id="c">Notice board </div>
-  <div id="co"><br><br></br></br>1.Notice of the meeting of the Gram Panchayat shall be
-served at least five clear days before the date of the
-meeting.<br>2.If a majority of the Members agree to convene a special
-meeting, the Notice thereof may be given at a shorter
-period of time than that stated above but at least 24
-hours before the meeting.</br><br>3.Where the Meetings of the Gram Panchayat are held on
-pre-determined dates, such Meetings may be convened 
- 6
-without any separate Notice, unless the applicable laws
-require for separate notice for each meeting</br><br>4.Notice shall specify the serial number, date, day, time
-and full address of the venue of the Meeting.</br><br>5.Notice shall contain the contact details and authority of
-the person issuing the Notice.</br></div>
-  
-  
+  <div id="c">Notice Board</div>
+</div>
+
 </article>
 
 <footer>
