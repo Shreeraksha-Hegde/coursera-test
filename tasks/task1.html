@@ -28,6 +28,7 @@ body {
   padding: 18px 35px;
   text-decoration: none;
   font-size: 25px;
+  margin: 0px;
   margin-bottom: 5px;
 }
 
@@ -234,119 +235,7 @@ div{
  }
 
 
-p {
-  width: 80%;
-  height: 50px;
-  border: 2px solid black;
-  float: left;
-  padding:10px;
-  margin-left: 80px ;
-  position: relative;
-  font-weight: bold;
-  text-align: center;
-  font-size: 20px;
-  
-  overflow: auto;
-  margin-top: 0px;
- padding: 5px;
-  position: relative;
-  
-}
 
-#p1 {
-  background-color: #00FF00;
-  
-}
-#p2 {
-  background-color: red;
-  
-}
-#p3{
-    background-color: tomato;
-}
-#p4{
-    background-color: black;
-    margin-left: 50px;
-}
-
-
-
-#content {
-                float: right;
-		color: white;
-		width: 80%;
-                height: 200px;
-		padding: 2px;
-		margin: 0px;
-		border: 1px solid black;
-		text-align: center;
-		font-size: 125%;
-		font-weight: bold;
-		background-color: blue;
-                margin-left: 50px;
-                margin-bottom: 5px;
-                border-radius: 25px;
-  
-  
-}
-#conte {
-   
-                float: right;
-		color: white;
-		width: 80%;
-                height: 200px;
-		padding: 2px;
-		margin: 0px;
-		border: 1px solid black;
-		text-align: center;
-		font-size: 125%;
-		font-weight: bold;
-		background-color: #808000;
-                margin-left: 50px;
-                margin-bottom: 5px;
-                border-radius: 25px;
-  
-                
-  
-  
-}
-#conten {
-                float: right;
-		color: white;
-		width: 80%;
-                height: 200px;
-		margin: 0px;
-		border: 1px solid black;
-		text-align: center;
-		font-size: 125%;
-		font-weight: bold;
-		background-color: #000080;
-                margin-left: 50px;
-                margin-bottom: 5px;
-                border-radius: 25px;
-  
-                
-  
-  
-}
-#con {
-                float: right;
-		color: white;
-		width: 80%;
-                height: 200px;
-		margin: 0px;
-		border: 1px solid black;
-		text-align: center;
-		font-size: 125%;
-		font-weight: bold;
-		background-color: pink;
-                margin-left: 50px;
-                margin-bottom: 5px;
-                margin-right: 30px;
-                border-radius: 25px;
-                
-  
- }
 #conn {
                 float: right;
 		color: white;
@@ -385,14 +274,43 @@ p {
                  
   
  }
+
+ .container { 
+              width: 100%
+              height: auto;
+              background: #48C9B0;
+
+            display : flex;
+            flex-direction : row;
+             justify-content : space-around;
+            flex-flow : wrap;
+  
+        } 
+      .box{
+                 width: 200px;
+                 height: 300px;
+                 margin: 20px;
+                
+                 
+                 box-sizing: border-box;
+          }
+    .child {
+                 width: 500px;
+                 height: 450px;
+                 margin: 20px;
+                 background: orange;
+                 box-sizing: border-box;
+                 border-radius: 25px;
+}
+
 #c{
                 width: 150px;
                 height: 50px;
                 padding: 10px;
                 border: 5px solid gray;
                 
-                margin-top: 10px;
-                
+                margin-top: 30px;
+                 
                 
                 font-weight: bold;
                 font-size: 100%;
@@ -401,130 +319,28 @@ p {
                 text-decoration: underline;
                 background-color: black;
                 position: absolute;
-                 top: 138%;
-                 left: 40%;
+                
   
  }
-.container {
-  ...
-  position: relative;
-}
-
-.child {
-  width: 200px;
-  height: 400px;
-  background-color: orange;
-  /* Center vertically and horizontally */
-  position: absolute;
-  top: 140%;
-  left: 40%;
-  bottom: 134%;
-  margin-top: 10px;
-  border-radius: 25px;
-  margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
-}
 
 
 
-.row {
-  width: 100%;
-}
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    
-  }
-    .header-section > div {
-        width: 100%;
-   }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-}
+       #b
+          {
+            background-color: pink;
+            width:180px;
+            height: 30px;
+            font-weight: bold;
+            color: black;
+          }
+ 
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
 footer {
   background-color: #58D68D ;
-  padding: 10px;
-  height: 450px;
-  text-align: center;
+  
+  height: 250px;
+  
   color: white;
 }
 article {
@@ -534,6 +350,12 @@ article {
   height: 550px;
   background-color: #F5CBA7 ;
  
+}
+
+@media screen and(max-width:1200px){
+  .box{
+          width: 40%;
+      }
 }
 
 
@@ -649,27 +471,37 @@ function showSlides(n) {
 </article>
 
 <footer>
-<div class="row">
-  
-  <div class="col-lg-3 col-md-11"><div id="box">
-  <div id="content"><img src="image5.jfif" align="left" style="width:90%;height:180px; margin: 5px;margin-left:13px; padding:5px" /></div>
-  </div> <p id="p1">Collector</p></div>
-  
 
-  <div class="col-lg-3 col-md-11"><div id="box">
-  <div id="conte"><img src="image6.jfif" align="left" style="width:90%;height:180px; margin: 5px;margin-left:13px; padding:5px" /> </div>
-  </div> <p id="p2">MP</p></div>
-  
-  <div class="col-lg-3 col-md-11"><div id="box">
-  <div id="conten"><img src="image7.jfif" align="left" style="width:90%;height:180px; margin: 5px;margin-left:13px; padding:5px" /></div>
-  </div> <p id="p3">CEO</p></div>
-  
-  <div class="col-lg-3 col-md-11"><div id="box">
-  <div id="con"><img src="image8.jfif" align="left" style="width:90%;height:180px; margin: 5px;margin-left:13px; padding:5px" /></div>
-  
-  </div> <p id="p4">ZP President</p></div>
- 
-</div>
+
+        <center>  
+       
+        <div class="container"> 
+        
+            <div class="box"> 
+                <img src= "image5.jfif"
+                "style="width:180px; height:160px;">
+            <div id="b">COLLECTOR</div>
+            </div> 
+              
+            <div class="box"> 
+                <img src= "image6.jfif"
+                "style="width:180px; height:160px;">
+            <div id="b">MP</div>
+            </div> 
+              
+            <div class="box"> 
+                <img src= "image7.jfif">
+            <div id="b">CEO</div>
+            </div> 
+           <div class="box"> 
+                <img src= "image8.jfif"
+                "style="width:180px; height:160px;">
+            <div id="b">ZP PRESIDENT</div>
+            </div> 
+
+        </div> 
+        </center> 
+
 </footer>
 
 
